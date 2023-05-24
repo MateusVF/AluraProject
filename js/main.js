@@ -10,7 +10,7 @@ function botaoEncriptar(){
         rightTextarea.style.backgroundImage = 'none';
         inputTexto1.value = '';
     } else{
-        rightTextarea.style.backgroundImage = 'url(/imagens/img.png)';
+        rightTextarea.style.backgroundImage = 'url(./imagens/img.png)';
     }
 }
 
@@ -34,7 +34,7 @@ function botaoDesencriptar(){
         rightTextarea.style.backgroundImage = 'none';
         inputTexto1.value = '';
     } else{
-        rightTextarea.style.backgroundImage = 'url(/imagens/img.png)';
+        rightTextarea.style.backgroundImage = 'url(./imagens/img.png)';
     }
     
 }
@@ -60,7 +60,7 @@ function copiarConteudo() {
         .then(function() {
             rightTextarea.value = "";
             if (rightTextarea.value.length === 0) {
-                rightTextarea.style.backgroundImage = 'url(/imagens/img.png)';
+                rightTextarea.style.backgroundImage = 'url(./imagens/img.png)';
             }
         })
     }
