@@ -51,7 +51,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
@@ -210,6 +210,8 @@
     background: #e6f8ff;
     border-top: 1px solid #0a3871;
     border-bottom: 1px solid #0a3871;
+    position: absolute;
+    bottom: 0;
   }
 
   .container-f{
@@ -231,6 +233,8 @@
 
 /*   RESPONSIVO     */
 
+
+
 @media screen and (max-width: 1024px) {
     header {
         align-items: center;
@@ -242,6 +246,32 @@
     .container2{
         max-width: 350px;
     }
+}
+
+@media screen and (max-width: 698px) {
+  .main-container{
+      gap: 15px;
+  }
+
+  .footer-main{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+  
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .main-container{
+      gap: 15px;
+  }
+
+  .footer-main{
+    display: flex;
+    position: relative;
+    bottom: 0;
+  
+  }
 }
 
 @media screen and (max-width: 480px) {
