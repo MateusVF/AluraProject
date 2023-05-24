@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dispotivo de criptografia e descriptografia de texto">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Criptografia</title>
+</head>
+<body>
+  <header>
+        <div class="logo1">
+            <h1>Decrypt</h1>
+            <img class="logo2" src="/imagens/cadeado.png">
+        </div>
+        <br>
+    </header>
+
+    <main class="main-container">
+        <section class="container1">
+                <div class="box1"> 
+                    <textarea id="leftTextarea" class="escreva1" placeholder="Digite aqui..."></textarea>
+                </div>
+            <p>Apenas letras minúsculas e sem acento</p>      
+            <div class="box2">
+                <button type="button" class="crip" id="botaoEncriptar" onclick="botaoEncriptar()">Criptografar</button>
+                <button type="button" class="des" id="botaoDescriptar" onclick="botaoDesencriptar()">Descriptografar</button>
+            </div>
+        </section><!---Container1-->
+
+    
+        <section class="container2">
+                    <textarea class="escreva2" id="rightTextarea" readonly></textarea>
+                    <button type="button" id="copy" class="copiar" onclick="copiarConteudo()">Copiar e limpar</button>        
+        </section><!--Container2-->
+    </main>
+    <footer class="footer-main">
+        <div class="container-f">
+            <h2>Desenvolvido por Mateus Vieira durante o curso "ONE - Oracle Next Education".</h2>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
+
