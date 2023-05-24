@@ -270,12 +270,27 @@
     display: flex;
     position: relative;
     bottom: 0;
-  
+  }
+
+  .container-f{
+    padding: 1rem;
+  }
+
+  .container-f > h2{
+    padding: 1rem;
   }
 }
 
 @media screen and (max-width: 480px) {
     .main-container{
         gap: 15px;
+    }
+
+    .container-f{
+      padding: 1rem;
+    }
+  
+    .container-f > h2{
+      padding: 1rem;
     }
 }
